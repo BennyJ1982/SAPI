@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "References", "References", "{992F66E2-980B-4689-A753-19760B844966}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\SolutionInfo.cs = ..\..\SolutionInfo.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facton.Infrastructure.Core.Interface", "..\..\..\Infrastructure\Core\Interface\Facton.Infrastructure.Core.Interface.csproj", "{90392890-FA4F-481C-A485-6DB43A88F71D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facton.Infrastructure.Modularity.Interface", "..\..\..\Infrastructure\Modularity\Interface\Facton.Infrastructure.Modularity.Interface.csproj", "{18BF00BC-FBBA-4DB7-92D0-2C6CA1EF06CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facton.Infrastructure.Core.Logging.Interface", "..\..\..\Infrastructure\Core\Logging\Interface\Facton.Infrastructure.Core.Logging.Interface.csproj", "{AA395429-C71C-4BE9-A849-0E7B8D660933}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facton.Infrastructure.Core.Container.Interface", "..\..\..\Infrastructure\Core\Container\Interface\Facton.Infrastructure.Core.Container.Interface.csproj", "{8AE24F58-CDFB-4AF6-A05C-9CDECCD9E9AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facton.Spikes.ServiceApi.ODataMapping", "Facton.Spikes.ServiceApi.ODataMapping\Facton.Spikes.ServiceApi.ODataMapping.csproj", "{4CA0C465-6379-4B18-9E95-173EB82B8ED7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug - Without AOP|Any CPU = Debug - Without AOP|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90392890-FA4F-481C-A485-6DB43A88F71D}.Debug - Without AOP|Any CPU.ActiveCfg = Debug - Without AOP|Any CPU
+		{90392890-FA4F-481C-A485-6DB43A88F71D}.Debug - Without AOP|Any CPU.Build.0 = Debug - Without AOP|Any CPU
+		{90392890-FA4F-481C-A485-6DB43A88F71D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90392890-FA4F-481C-A485-6DB43A88F71D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90392890-FA4F-481C-A485-6DB43A88F71D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90392890-FA4F-481C-A485-6DB43A88F71D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18BF00BC-FBBA-4DB7-92D0-2C6CA1EF06CC}.Debug - Without AOP|Any CPU.ActiveCfg = Debug - Without AOP|Any CPU
+		{18BF00BC-FBBA-4DB7-92D0-2C6CA1EF06CC}.Debug - Without AOP|Any CPU.Build.0 = Debug - Without AOP|Any CPU
+		{18BF00BC-FBBA-4DB7-92D0-2C6CA1EF06CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18BF00BC-FBBA-4DB7-92D0-2C6CA1EF06CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18BF00BC-FBBA-4DB7-92D0-2C6CA1EF06CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18BF00BC-FBBA-4DB7-92D0-2C6CA1EF06CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA395429-C71C-4BE9-A849-0E7B8D660933}.Debug - Without AOP|Any CPU.ActiveCfg = Debug - Without AOP|Any CPU
+		{AA395429-C71C-4BE9-A849-0E7B8D660933}.Debug - Without AOP|Any CPU.Build.0 = Debug - Without AOP|Any CPU
+		{AA395429-C71C-4BE9-A849-0E7B8D660933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA395429-C71C-4BE9-A849-0E7B8D660933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA395429-C71C-4BE9-A849-0E7B8D660933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA395429-C71C-4BE9-A849-0E7B8D660933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AE24F58-CDFB-4AF6-A05C-9CDECCD9E9AD}.Debug - Without AOP|Any CPU.ActiveCfg = Debug - Without AOP|Any CPU
+		{8AE24F58-CDFB-4AF6-A05C-9CDECCD9E9AD}.Debug - Without AOP|Any CPU.Build.0 = Debug - Without AOP|Any CPU
+		{8AE24F58-CDFB-4AF6-A05C-9CDECCD9E9AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AE24F58-CDFB-4AF6-A05C-9CDECCD9E9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AE24F58-CDFB-4AF6-A05C-9CDECCD9E9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AE24F58-CDFB-4AF6-A05C-9CDECCD9E9AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CA0C465-6379-4B18-9E95-173EB82B8ED7}.Debug - Without AOP|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA0C465-6379-4B18-9E95-173EB82B8ED7}.Debug - Without AOP|Any CPU.Build.0 = Debug|Any CPU
+		{4CA0C465-6379-4B18-9E95-173EB82B8ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA0C465-6379-4B18-9E95-173EB82B8ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA0C465-6379-4B18-9E95-173EB82B8ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA0C465-6379-4B18-9E95-173EB82B8ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{90392890-FA4F-481C-A485-6DB43A88F71D} = {992F66E2-980B-4689-A753-19760B844966}
+		{18BF00BC-FBBA-4DB7-92D0-2C6CA1EF06CC} = {992F66E2-980B-4689-A753-19760B844966}
+		{AA395429-C71C-4BE9-A849-0E7B8D660933} = {992F66E2-980B-4689-A753-19760B844966}
+		{8AE24F58-CDFB-4AF6-A05C-9CDECCD9E9AD} = {992F66E2-980B-4689-A753-19760B844966}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs:8080/tfs/core
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\..\\..\\Infrastructure\\Core\\Interface\\Facton.Infrastructure.Core.Interface.csproj
+		SccProjectTopLevelParentUniqueName1 = ServiceApiODataMappingSpike.sln
+		SccProjectName1 = ../../../Infrastructure/Core/Interface
+		SccLocalPath1 = ..\\..\\..\\Infrastructure\\Core\\Interface
+		SccProjectUniqueName2 = ..\\..\\..\\Infrastructure\\Modularity\\Interface\\Facton.Infrastructure.Modularity.Interface.csproj
+		SccProjectTopLevelParentUniqueName2 = ServiceApiODataMappingSpike.sln
+		SccProjectName2 = ../../../Infrastructure/Modularity/Interface
+		SccLocalPath2 = ..\\..\\..\\Infrastructure\\Modularity\\Interface
+		SccProjectUniqueName3 = ..\\..\\..\\Infrastructure\\Core\\Logging\\Interface\\Facton.Infrastructure.Core.Logging.Interface.csproj
+		SccProjectTopLevelParentUniqueName3 = ServiceApiODataMappingSpike.sln
+		SccProjectName3 = ../../../Infrastructure/Core/Logging/Interface
+		SccLocalPath3 = ..\\..\\..\\Infrastructure\\Core\\Logging\\Interface
+		SccProjectUniqueName4 = ..\\..\\..\\Infrastructure\\Core\\Container\\Interface\\Facton.Infrastructure.Core.Container.Interface.csproj
+		SccProjectTopLevelParentUniqueName4 = ServiceApiODataMappingSpike.sln
+		SccProjectName4 = ../../../Infrastructure/Core/Container/Interface
+		SccLocalPath4 = ..\\..\\..\\Infrastructure\\Core\\Container\\Interface
+		SccProjectUniqueName5 = Facton.Spikes.ServiceApi.ODataMapping\\Facton.Spikes.ServiceApi.ODataMapping.csproj
+		SccProjectName5 = Facton.Spikes.ServiceApi.ODataMapping
+		SccLocalPath5 = Facton.Spikes.ServiceApi.ODataMapping
+	EndGlobalSection
+EndGlobal

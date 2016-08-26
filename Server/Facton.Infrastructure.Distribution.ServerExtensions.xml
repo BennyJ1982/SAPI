@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<factonModules xmlns="http://www.facton.com/infrastructure/modularity">
+
+  <module name="ServiceApi.ODataMappingModule.Old" />
+
+  <module name="ServiceApi.Model.Core" />
+  <module name="ServiceApi.Model.Entities" />
+  <module name="ServiceApi.Model.Initialization" />
+  <module name="ServiceApi.Model.Initialization.Common" />
+  <module name="ServiceApi.Model.Initialization.ConfigurationTrees" />
+  <module name="ServiceApi.Model.Initialization.DataTrees" />
+  <module name="ServiceApi.Model.Initialization.DataTypes" />
+  <module name="ServiceApi.Model.Initialization.Global" />
+  <module name="ServiceApi.Model.Initialization.Registries" />
+  <module name="ServiceApi.Model.Initialization.Resources" />
+  <module name="ServiceApi.Model.Initialization.ValueRules" />
+  <module name="ServiceApi.Model.Initialization.Versions" />
+
+  <module name="ServiceApi.Server.Logging" />
+  <module name="ServiceApi.Server.ODataObjects" />
+  <module name="ServiceApi.Server.ServerModule" startUp="true"/>
+
+</factonModules>

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4CA0C465-6379-4B18-9E95-173EB82B8ED7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Facton.ServiceApi.Domain</RootNamespace>
+    <AssemblyName>ServiceApi.Implementation</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Properties\FactonCertificate_public.snk</AssemblyOriginatorKeyFile>
+    <DelaySign>true</DelaySign>
+    <StyleCopTreatErrorsAsWarnings>true</StyleCopTreatErrorsAsWarnings>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\Bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisOverrideRuleVisibilities>true</CodeAnalysisOverrideRuleVisibilities>
+    <NoAop>false</NoAop>
+    <Prefer32Bit>false</Prefer32Bit>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug - Without AOP|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\Bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <StyleCopEnabled>false</StyleCopEnabled>
+    <CodeAnalysisOverrideRuleVisibilities>true</CodeAnalysisOverrideRuleVisibilities>
+    <NoAop>true</NoAop>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\..\..\Bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisOverrideRuleVisibilities>true</CodeAnalysisOverrideRuleVisibilities>
+    <NoAop>false</NoAop>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Facton.Infrastructure.Core.Interface, Version=7.1.8.1420, Culture=neutral, PublicKeyToken=f15342ffe5641632, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Bin\Debug\Facton.Infrastructure.Core.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Facton.Infrastructure.Entities.Interface">
+      <HintPath>..\..\..\..\..\Bin\Debug\Facton.Infrastructure.Entities.Interface.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Facton.Infrastructure.Modularity.Interface, Version=7.1.8.1420, Culture=neutral, PublicKeyToken=f15342ffe5641632, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Bin\Debug\Facton.Infrastructure.Modularity.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Facton.Infrastructure.Queries.Interface">
+      <HintPath>..\..\..\..\..\Bin\Debug\Facton.Infrastructure.Queries.Interface.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Facton.Infrastructure.Security.Authorization.Interface, Version=7.1.9.1420, Culture=neutral, PublicKeyToken=f15342ffe5641632, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Bin\Debug\Facton.Infrastructure.Security.Authorization.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Facton.Infrastructure.Security.Interface, Version=7.1.9.1420, Culture=neutral, PublicKeyToken=f15342ffe5641632, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Bin\Debug\Facton.Infrastructure.Security.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Facton.Infrastructure.Security.Users.Interface, Version=7.1.9.1420, Culture=neutral, PublicKeyToken=f15342ffe5641632, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Bin\Debug\Facton.Infrastructure.Security.Users.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.OData.Core, Version=6.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.OData.Core.6.12.0\lib\portable-net40+sl5+wp8+win8+wpa\Microsoft.OData.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.OData.Edm, Version=6.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.OData.Edm.6.12.0\lib\portable-net40+sl5+wp8+win8+wpa\Microsoft.OData.Edm.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Spatial, Version=6.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Spatial.6.12.0\lib\portable-net40+sl5+wp8+win8+wpa\Microsoft.Spatial.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\..\..\Source\GlobalSuppressions.cs">
+      <Link>Properties\GlobalSuppressions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\..\Source\SolutionInfo.cs">
+      <Link>Properties\SolutionInfo.cs</Link>
+    </Compile>
+    <Compile Include="ODataMappingModule.cs" />
+    <Compile Include="ODataMappingService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\ODataRepository.cs" />
+    <Compile Include="Repository\RepositoryFactory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDictionary Include="..\..\..\..\..\Source\CodeAnalysisDictionary.xml">
+      <Link>Properties\CodeAnalysisDictionary.xml</Link>
+    </CodeAnalysisDictionary>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ServiceApi.ODataMappingModule.Old.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ServiceApi.ODataMappingModule.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\FactonCertificate_public.snk" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Interface\ServiceApi.Interface.csproj">
+      <Project>{cbc65876-7407-4fff-9368-6f0a9c27d83f}</Project>
+      <Name>ServiceApi.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Core\Interface\ServiceApi.Model.Core.Interface.csproj">
+      <Project>{8CA30F66-B8F8-40F4-AE15-50A7752CA296}</Project>
+      <Name>ServiceApi.Model.Core.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Core\Serialization\Interface\ServiceApi.Model.Core.Serialization.Interface.csproj">
+      <Project>{0613877F-FA9B-42A1-86B7-AD2333EC1544}</Project>
+      <Name>ServiceApi.Model.Core.Serialization.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Entities\Interface\ServiceApi.Model.Entities.Interface.csproj">
+      <Project>{8C590F17-40CC-42B2-B9D4-790B4B76D83C}</Project>
+      <Name>ServiceApi.Model.Entities.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Initialization\Interface\ServiceApi.Model.Initialization.Interface.csproj">
+      <Project>{01df24aa-a8fe-4d6e-b745-d03c0aa0dc6a}</Project>
+      <Name>ServiceApi.Model.Initialization.Interface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(NoAop)' == 'false' ">
+    <DefineConstants>$(DefineConstants);USE_CASTLEAOP</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+   
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

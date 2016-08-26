@@ -1,0 +1,164 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "References", "References", "{992F66E2-980B-4689-A753-19760B844966}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\SolutionInfo.cs = ..\..\..\SolutionInfo.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceApi.Implementation", "Implementation\ServiceApi.Implementation.csproj", "{4CA0C465-6379-4B18-9E95-173EB82B8ED7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceApi.Interface", "Interface\ServiceApi.Interface.csproj", "{CBC65876-7407-4FFF-9368-6F0A9C27D83F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mapping", "Mapping", "{52BDA846-4686-4115-8AC4-CA3FEA01E48A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{308D8C1A-AAFB-4042-9FB3-6625352AA2E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{514C7572-3195-48D1-9C5E-49490ADD30C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceApi.Model.Core.Interface", "Model\Core\Interface\ServiceApi.Model.Core.Interface.csproj", "{8CA30F66-B8F8-40F4-AE15-50A7752CA296}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceApi.Model.Core.Implementation", "Model\Core\Implementation\ServiceApi.Model.Core.Implementation.csproj", "{49CBF6ED-258A-4785-875B-AA92F788E288}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Initialization", "Initialization", "{05704D4A-B400-4864-916D-1B54D4A59A08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceApi.Model.Initialization.Implementation", "Model\Initialization\Implementation\ServiceApi.Model.Initialization.Implementation.csproj", "{4377E300-FA43-4857-98E1-AC09DCC2E968}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceApi.Model.Initialization.Interface", "Model\Initialization\Interface\ServiceApi.Model.Initialization.Interface.csproj", "{01DF24AA-A8FE-4D6E-B745-D03C0AA0DC6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{E8AB432F-0243-44FB-82CC-4C10135E7140}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceApi.Model.Entities.Interface", "Model\Entities\Interface\ServiceApi.Model.Entities.Interface.csproj", "{8C590F17-40CC-42B2-B9D4-790B4B76D83C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceApi.Model.Entities.Implementation", "Model\Entities\Implementation\ServiceApi.Model.Entities.Implementation.csproj", "{79060057-4DBD-420E-9058-D654F98AF7F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{C734BD6B-66E3-4C4C-97B7-1DDC8BA303A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceApi.Model.Core.Serialization.Interface", "Model\Core\Serialization\Interface\ServiceApi.Model.Core.Serialization.Interface.csproj", "{0613877F-FA9B-42A1-86B7-AD2333EC1544}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug - Without AOP|Any CPU = Debug - Without AOP|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CA0C465-6379-4B18-9E95-173EB82B8ED7}.Debug - Without AOP|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA0C465-6379-4B18-9E95-173EB82B8ED7}.Debug - Without AOP|Any CPU.Build.0 = Debug|Any CPU
+		{4CA0C465-6379-4B18-9E95-173EB82B8ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA0C465-6379-4B18-9E95-173EB82B8ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA0C465-6379-4B18-9E95-173EB82B8ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA0C465-6379-4B18-9E95-173EB82B8ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBC65876-7407-4FFF-9368-6F0A9C27D83F}.Debug - Without AOP|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC65876-7407-4FFF-9368-6F0A9C27D83F}.Debug - Without AOP|Any CPU.Build.0 = Debug|Any CPU
+		{CBC65876-7407-4FFF-9368-6F0A9C27D83F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC65876-7407-4FFF-9368-6F0A9C27D83F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC65876-7407-4FFF-9368-6F0A9C27D83F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC65876-7407-4FFF-9368-6F0A9C27D83F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CA30F66-B8F8-40F4-AE15-50A7752CA296}.Debug - Without AOP|Any CPU.ActiveCfg = Debug - Without AOP|Any CPU
+		{8CA30F66-B8F8-40F4-AE15-50A7752CA296}.Debug - Without AOP|Any CPU.Build.0 = Debug - Without AOP|Any CPU
+		{8CA30F66-B8F8-40F4-AE15-50A7752CA296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CA30F66-B8F8-40F4-AE15-50A7752CA296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA30F66-B8F8-40F4-AE15-50A7752CA296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CA30F66-B8F8-40F4-AE15-50A7752CA296}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49CBF6ED-258A-4785-875B-AA92F788E288}.Debug - Without AOP|Any CPU.ActiveCfg = Debug - Without AOP|Any CPU
+		{49CBF6ED-258A-4785-875B-AA92F788E288}.Debug - Without AOP|Any CPU.Build.0 = Debug - Without AOP|Any CPU
+		{49CBF6ED-258A-4785-875B-AA92F788E288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49CBF6ED-258A-4785-875B-AA92F788E288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49CBF6ED-258A-4785-875B-AA92F788E288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49CBF6ED-258A-4785-875B-AA92F788E288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4377E300-FA43-4857-98E1-AC09DCC2E968}.Debug - Without AOP|Any CPU.ActiveCfg = Debug - Without AOP|Any CPU
+		{4377E300-FA43-4857-98E1-AC09DCC2E968}.Debug - Without AOP|Any CPU.Build.0 = Debug - Without AOP|Any CPU
+		{4377E300-FA43-4857-98E1-AC09DCC2E968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4377E300-FA43-4857-98E1-AC09DCC2E968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4377E300-FA43-4857-98E1-AC09DCC2E968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4377E300-FA43-4857-98E1-AC09DCC2E968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01DF24AA-A8FE-4D6E-B745-D03C0AA0DC6A}.Debug - Without AOP|Any CPU.ActiveCfg = Debug - Without AOP|Any CPU
+		{01DF24AA-A8FE-4D6E-B745-D03C0AA0DC6A}.Debug - Without AOP|Any CPU.Build.0 = Debug - Without AOP|Any CPU
+		{01DF24AA-A8FE-4D6E-B745-D03C0AA0DC6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01DF24AA-A8FE-4D6E-B745-D03C0AA0DC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01DF24AA-A8FE-4D6E-B745-D03C0AA0DC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01DF24AA-A8FE-4D6E-B745-D03C0AA0DC6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C590F17-40CC-42B2-B9D4-790B4B76D83C}.Debug - Without AOP|Any CPU.ActiveCfg = Debug - Without AOP|Any CPU
+		{8C590F17-40CC-42B2-B9D4-790B4B76D83C}.Debug - Without AOP|Any CPU.Build.0 = Debug - Without AOP|Any CPU
+		{8C590F17-40CC-42B2-B9D4-790B4B76D83C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C590F17-40CC-42B2-B9D4-790B4B76D83C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C590F17-40CC-42B2-B9D4-790B4B76D83C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C590F17-40CC-42B2-B9D4-790B4B76D83C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79060057-4DBD-420E-9058-D654F98AF7F5}.Debug - Without AOP|Any CPU.ActiveCfg = Debug - Without AOP|Any CPU
+		{79060057-4DBD-420E-9058-D654F98AF7F5}.Debug - Without AOP|Any CPU.Build.0 = Debug - Without AOP|Any CPU
+		{79060057-4DBD-420E-9058-D654F98AF7F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79060057-4DBD-420E-9058-D654F98AF7F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79060057-4DBD-420E-9058-D654F98AF7F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79060057-4DBD-420E-9058-D654F98AF7F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0613877F-FA9B-42A1-86B7-AD2333EC1544}.Debug - Without AOP|Any CPU.ActiveCfg = Debug - Without AOP|Any CPU
+		{0613877F-FA9B-42A1-86B7-AD2333EC1544}.Debug - Without AOP|Any CPU.Build.0 = Debug - Without AOP|Any CPU
+		{0613877F-FA9B-42A1-86B7-AD2333EC1544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0613877F-FA9B-42A1-86B7-AD2333EC1544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0613877F-FA9B-42A1-86B7-AD2333EC1544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0613877F-FA9B-42A1-86B7-AD2333EC1544}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4CA0C465-6379-4B18-9E95-173EB82B8ED7} = {52BDA846-4686-4115-8AC4-CA3FEA01E48A}
+		{CBC65876-7407-4FFF-9368-6F0A9C27D83F} = {52BDA846-4686-4115-8AC4-CA3FEA01E48A}
+		{308D8C1A-AAFB-4042-9FB3-6625352AA2E7} = {52BDA846-4686-4115-8AC4-CA3FEA01E48A}
+		{514C7572-3195-48D1-9C5E-49490ADD30C3} = {308D8C1A-AAFB-4042-9FB3-6625352AA2E7}
+		{8CA30F66-B8F8-40F4-AE15-50A7752CA296} = {514C7572-3195-48D1-9C5E-49490ADD30C3}
+		{49CBF6ED-258A-4785-875B-AA92F788E288} = {514C7572-3195-48D1-9C5E-49490ADD30C3}
+		{05704D4A-B400-4864-916D-1B54D4A59A08} = {308D8C1A-AAFB-4042-9FB3-6625352AA2E7}
+		{4377E300-FA43-4857-98E1-AC09DCC2E968} = {05704D4A-B400-4864-916D-1B54D4A59A08}
+		{01DF24AA-A8FE-4D6E-B745-D03C0AA0DC6A} = {05704D4A-B400-4864-916D-1B54D4A59A08}
+		{E8AB432F-0243-44FB-82CC-4C10135E7140} = {308D8C1A-AAFB-4042-9FB3-6625352AA2E7}
+		{8C590F17-40CC-42B2-B9D4-790B4B76D83C} = {E8AB432F-0243-44FB-82CC-4C10135E7140}
+		{79060057-4DBD-420E-9058-D654F98AF7F5} = {E8AB432F-0243-44FB-82CC-4C10135E7140}
+		{C734BD6B-66E3-4C4C-97B7-1DDC8BA303A1} = {514C7572-3195-48D1-9C5E-49490ADD30C3}
+		{0613877F-FA9B-42A1-86B7-AD2333EC1544} = {C734BD6B-66E3-4C4C-97B7-1DDC8BA303A1}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs:8080/tfs/core
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Model\\Core\\Implementation\\ServiceApi.Model.Core.Implementation.csproj
+		SccProjectTopLevelParentUniqueName1 = ServiceApiODataMappingSpikeNew.sln
+		SccProjectName1 = Model/Core/Implementation
+		SccLocalPath1 = Model\\Core\\Implementation
+		SccProjectUniqueName2 = Model\\Core\\Interface\\ServiceApi.Model.Core.Interface.csproj
+		SccProjectTopLevelParentUniqueName2 = ServiceApiODataMappingSpikeNew.sln
+		SccProjectName2 = Model/Core/Interface
+		SccLocalPath2 = Model\\Core\\Interface
+		SccProjectUniqueName3 = Model\\Initialization\\Implementation\\ServiceApi.Model.Initialization.Implementation.csproj
+		SccProjectTopLevelParentUniqueName3 = ServiceApiODataMappingSpikeNew.sln
+		SccProjectName3 = Model/Initialization/Implementation
+		SccLocalPath3 = Model\\Initialization\\Implementation
+		SccProjectUniqueName4 = Model\\Initialization\\Interface\\ServiceApi.Model.Initialization.Interface.csproj
+		SccProjectTopLevelParentUniqueName4 = ServiceApiODataMappingSpikeNew.sln
+		SccProjectName4 = Model/Initialization/Interface
+		SccLocalPath4 = Model\\Initialization\\Interface
+		SccProjectUniqueName5 = Implementation\\ServiceApi.Implementation.csproj
+		SccProjectTopLevelParentUniqueName5 = ServiceApiODataMappingSpikeNew.sln
+		SccProjectName5 = Implementation
+		SccLocalPath5 = Implementation
+		SccProjectUniqueName6 = Interface\\ServiceApi.Interface.csproj
+		SccProjectTopLevelParentUniqueName6 = ServiceApiODataMappingSpikeNew.sln
+		SccProjectName6 = Interface
+		SccLocalPath6 = Interface
+		SccProjectUniqueName7 = Model\\Entities\\Interface\\ServiceApi.Model.Entities.Interface.csproj
+		SccProjectTopLevelParentUniqueName7 = ServiceApiODataMappingSpikeNew.sln
+		SccProjectName7 = Model/Entities/Interface
+		SccLocalPath7 = Model\\Entities\\Interface
+		SccProjectUniqueName8 = Model\\Entities\\Implementation\\ServiceApi.Model.Entities.Implementation.csproj
+		SccProjectTopLevelParentUniqueName8 = ServiceApiODataMappingSpikeNew.sln
+		SccProjectName8 = Model/Entities/Implementation
+		SccLocalPath8 = Model\\Entities\\Implementation
+		SccProjectUniqueName9 = Model\\Core\\Serialization\\Interface\\ServiceApi.Model.Core.Serialization.Interface.csproj
+		SccProjectTopLevelParentUniqueName9 = ServiceApiODataMappingSpikeNew.sln
+		SccProjectName9 = Model/Core/Serialization/Interface
+		SccLocalPath9 = Model\\Core\\Serialization\\Interface
+	EndGlobalSection
+EndGlobal

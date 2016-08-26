@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4377E300-FA43-4857-98E1-AC09DCC2E968}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Facton.ServiceApi.Domain.Model.Initialization</RootNamespace>
+    <AssemblyName>ServiceApi.Model.Initialization.Implementation</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Properties\FactonCertificate_public.snk</AssemblyOriginatorKeyFile>
+    <DelaySign>true</DelaySign>
+    <StyleCopTreatErrorsAsWarnings>true</StyleCopTreatErrorsAsWarnings>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\..\..\Bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisOverrideRuleVisibilities>true</CodeAnalysisOverrideRuleVisibilities>
+    <NoAop>false</NoAop>
+    <Prefer32Bit>false</Prefer32Bit>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug - Without AOP|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\..\..\Bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <StyleCopEnabled>false</StyleCopEnabled>
+    <CodeAnalysisOverrideRuleVisibilities>true</CodeAnalysisOverrideRuleVisibilities>
+    <NoAop>true</NoAop>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\..\..\..\..\Bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisOverrideRuleVisibilities>true</CodeAnalysisOverrideRuleVisibilities>
+    <NoAop>false</NoAop>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Facton.Domain.Dimensions.Interface, Version=8.3.0.1420, Culture=neutral, PublicKeyToken=f15342ffe5641632, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Bin\Debug\Facton.Domain.Dimensions.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Facton.Domain.Dimensions.Metadata.Interface, Version=8.3.0.1420, Culture=neutral, PublicKeyToken=f15342ffe5641632, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Bin\Debug\Facton.Domain.Dimensions.Metadata.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Facton.Domain.Entities.Interface, Version=8.3.0.1420, Culture=neutral, PublicKeyToken=f15342ffe5641632, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Bin\Debug\Facton.Domain.Entities.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Facton.Domain.Entities.Metadata.Interface, Version=8.3.0.1420, Culture=neutral, PublicKeyToken=f15342ffe5641632, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Bin\Debug\Facton.Domain.Entities.Metadata.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Facton.Domain.Resources.Interface, Version=8.3.0.1420, Culture=neutral, PublicKeyToken=f15342ffe5641632, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Bin\Debug\Facton.Domain.Resources.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Facton.Domain.Resources.Metadata.Interface, Version=8.3.0.1420, Culture=neutral, PublicKeyToken=f15342ffe5641632, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Bin\Debug\Facton.Domain.Resources.Metadata.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Facton.Domain.Trees.Interface, Version=8.3.0.1420, Culture=neutral, PublicKeyToken=f15342ffe5641632, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Bin\Debug\Facton.Domain.Trees.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Facton.Infrastructure.Core.Interface, Version=8.3.0.1420, Culture=neutral, PublicKeyToken=f15342ffe5641632, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Bin\Debug\Facton.Infrastructure.Core.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Facton.Infrastructure.Entities.Interface, Version=8.3.0.1420, Culture=neutral, PublicKeyToken=f15342ffe5641632, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Bin\Debug\Facton.Infrastructure.Entities.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Facton.Infrastructure.Metadata.Interface, Version=8.3.0.1420, Culture=neutral, PublicKeyToken=f15342ffe5641632, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Bin\Debug\Facton.Infrastructure.Metadata.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Facton.Infrastructure.Modularity.Interface, Version=8.3.0.1420, Culture=neutral, PublicKeyToken=f15342ffe5641632, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Bin\Debug\Facton.Infrastructure.Modularity.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Facton.Infrastructure.Queries.Interface, Version=8.3.0.1420, Culture=neutral, PublicKeyToken=f15342ffe5641632, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Bin\Debug\Facton.Infrastructure.Queries.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.OData.Core, Version=6.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.OData.Core.6.12.0\lib\portable-net40+sl5+wp8+win8+wpa\Microsoft.OData.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.OData.Edm, Version=6.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.OData.Edm.6.12.0\lib\portable-net40+sl5+wp8+win8+wpa\Microsoft.OData.Edm.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Spatial, Version=6.12.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Microsoft.Spatial.6.12.0\lib\portable-net40+sl5+wp8+win8+wpa\Microsoft.Spatial.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.Entity.Design" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\..\..\..\..\..\Source\GlobalSuppressions.cs">
+      <Link>Properties\GlobalSuppressions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\..\..\..\Source\SolutionInfo.cs">
+      <Link>Properties\SolutionInfo.cs</Link>
+    </Compile>
+    <Compile Include="Common\CommonInitializationModule.cs" />
+    <Compile Include="Common\Handlers\DefaultOperationHandlerProvider.cs" />
+    <Compile Include="Common\Handlers\DefaultSelectItemHandler.cs" />
+    <Compile Include="Common\Handlers\OperationContextExtension.cs" />
+    <Compile Include="Common\Handlers\PostEntityOperationHandler.cs" />
+    <Compile Include="Trees\ConfigurationTreesInitializationModule.cs" />
+    <Compile Include="Trees\SelectionTreeValuePropertyPostProcessor.cs" />
+    <Compile Include="Trees\TreeNodeEntitySetBinding.cs" />
+    <Compile Include="Trees\SelectionTreeValueListValueNavigationPropertyBinding.cs" />
+    <Compile Include="Trees\SelectionTreeValueNavigationPropertyBinding.cs" />
+    <Compile Include="EntityTypeInitializerRegistry.cs" />
+    <Compile Include="Trees\DataTreesInitializationModule.cs" />
+    <Compile Include="Trees\PropertyExtension.cs" />
+    <Compile Include="Trees\PropertyServiceExtension.cs" />
+    <Compile Include="Global\GlobalInitializationModule.cs" />
+    <Compile Include="Common\IPropertyService.cs" />
+    <Compile Include="Common\SignatureSingletonBinding.cs" />
+    <Compile Include="IPublicEntityTypeInitializer.cs" />
+    <Compile Include="ModelConfigurationRegistry.cs" />
+    <Compile Include="DataTypes\DataTypesModule.cs" />
+    <Compile Include="DataTypes\LocalizedTextDataType.cs" />
+    <Compile Include="DataTypes\MetadataItemDataType.cs" />
+    <Compile Include="DataTypes\SerializableDomainTypeDataType.cs" />
+    <Compile Include="DataTypes\UnitValueDataType.cs" />
+    <Compile Include="Common\EntityFrameworkPluralizationServiceWrapper.cs" />
+    <Compile Include="FactonModelInitializer.cs" />
+    <Compile Include="Common\Handlers\GetEntityOperationHandler.cs" />
+    <Compile Include="Common\Handlers\PatchEntityOperationHandler.cs" />
+    <Compile Include="Common\PropertyService.cs" />
+    <Compile Include="RegistriesModule.cs" />
+    <Compile Include="Resources\ResourcesInitializationModule.cs" />
+    <Compile Include="PublicEntityTypeInitializer.cs" />
+    <Compile Include="ValueRules\ValueRulesInitializationModule.cs" />
+    <Compile Include="ValueRules\ValueRuleContainerTypeInitializer.cs" />
+    <Compile Include="ValueRules\VirtualValueRuleContainerNavigationPropertyBinding.cs" />
+    <Compile Include="Versions\VersionedEntityNavigationPropertyBinding.cs" />
+    <Compile Include="Resources\ResourceEntitySetBinding.cs" />
+    <Compile Include="Versions\VersionsInitializationModule.cs" />
+    <Compile Include="ModelInitializationModule.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Common\QueryAttributes\EntityIdQueryAttribute.cs" />
+    <Compile Include="Common\QueryAttributes\EntityTypesQueryAttribute.cs" />
+    <Compile Include="Common\QueryAttributes\SignatureQueryAttribute.cs" />
+    <Compile Include="Common\QueryAttributes\SpaceQueryAttribute.cs" />
+    <Compile Include="Common\SignatureEntitySetBinding.cs" />
+    <Compile Include="Versions\VersionInfoNavigationPropertyBinding.cs" />
+    <Compile Include="Trees\TreeNodeParentNavigationPropertyBinding.cs" />
+    <Compile Include="ValueRules\ConcreteValueRuleContainerNavigationPropertyBinding.cs" />
+    <Compile Include="Trees\TreeSignatureTypeInitializer.cs" />
+    <Compile Include="Global\GlobalSignatureTypeInitializer.cs" />
+    <Compile Include="Resources\ResourceSignatureTypeInitializer.cs" />
+    <Compile Include="Common\SignatureEntitySetInitializer.cs" />
+    <Compile Include="Versions\VersionSupportingSignatureTypeInitializer.cs" />
+    <Compile Include="Versions\IVersionInfoTypeInitializer.cs" />
+    <Compile Include="Versions\VersionInfoTypeInitializer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDictionary Include="..\..\..\..\..\..\..\Source\CodeAnalysisDictionary.xml">
+      <Link>Properties\CodeAnalysisDictionary.xml</Link>
+    </CodeAnalysisDictionary>
+    <None Include="ServiceApi.Model.Initialization.ConfigurationTrees.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ServiceApi.Model.Initialization.ValueRules.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ServiceApi.Model.Initialization.DataTypes.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ServiceApi.Model.Initialization.Registries.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ServiceApi.Model.Initialization.Common.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ServiceApi.Model.Initialization.Versions.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ServiceApi.Model.Initialization.DataTrees.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ServiceApi.Model.Initialization.Global.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ServiceApi.Model.Initialization.Resources.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="ServiceApi.Model.Initialization.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\FactonCertificate_public.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ConfigurationTrees\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Interface\ServiceApi.Model.Core.Interface.csproj">
+      <Project>{8ca30f66-b8f8-40f4-ae15-50a7752ca296}</Project>
+      <Name>ServiceApi.Model.Core.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\Serialization\Interface\ServiceApi.Model.Core.Serialization.Interface.csproj">
+      <Project>{0613877F-FA9B-42A1-86B7-AD2333EC1544}</Project>
+      <Name>ServiceApi.Model.Core.Serialization.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Entities\Interface\ServiceApi.Model.Entities.Interface.csproj">
+      <Project>{8C590F17-40CC-42B2-B9D4-790B4B76D83C}</Project>
+      <Name>ServiceApi.Model.Entities.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interface\ServiceApi.Model.Initialization.Interface.csproj">
+      <Project>{01df24aa-a8fe-4d6e-b745-d03c0aa0dc6a}</Project>
+      <Name>ServiceApi.Model.Initialization.Interface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(NoAop)' == 'false' ">
+    <DefineConstants>$(DefineConstants);USE_CASTLEAOP</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+   
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
